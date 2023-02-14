@@ -1,9 +1,3 @@
-let bgm = document.getElementById('bgm');
-		function playSound(){
-			bgm.play();
-			bgm.volume = 0.6;
-		}
-      
         let gmbr = document.getElementById("batu");
         gmbr.addEventListener("click", 
             event => {
@@ -54,9 +48,9 @@ class Start {
         const bot = this.pilihanBot;
 
         if (pemain === "👋" && bot === "👋"){
-            return ('DRAW');
             console.log("Player 1 kertas dan COMPUTER kertas hasilnya :");
             console.log("DRAW");
+            return ('DRAW');
             
             
         }
@@ -125,13 +119,7 @@ let mulaiGame = new Start;
 // membuat fungsi untuk mendapatkan  pilihan pemain
 // dan menjalankan permainan
 function ambilPilihan(pilihanPemain) {
-    // .............
-    // let mulaiGame = new Start;
-    // ambil sumber audio
-    let clickSound = document.getElementById('clickSound');
-    // putar saar di klik
-    clickSound.play();
-    //................
+
 
     mulaiGame.otakBot();
     mulaiGame.pilihanPemain = pilihanPemain;
@@ -162,7 +150,6 @@ function ulangi(){
     tampilPilihan.textContent = '..VS..';
 
     // reset tampilkan score
-    document.getElementById('score').textContent = `Score 0:0`;
     // reset tampilkan hasil permainan
     document.getElementById('hasilPermainan').textContent = '';
 }

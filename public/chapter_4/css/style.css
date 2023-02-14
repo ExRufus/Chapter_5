@@ -4,6 +4,7 @@ body {
 }
 
 .games {
+	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -33,22 +34,9 @@ img {
     border: transparent;
 }
 
-.game-over {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	top: 0;
-	left: 0;
-	background-color: rgba(0,0,0,0.9);
-	color: white;
-	justify-content: center;
-	flex-direction: column;
-	display: none;
-	z-index: 1
-}
 
 .footer img{
-    margin-left: 40em;
+    margin-left: 45em;
     width: 80px;
     height: 80px;
 }
@@ -61,14 +49,12 @@ img {
 position: absolute;
 margin-left: 550px;
 margin-top: 150px;
-background: #4C9654;
 transform: rotate(-28.87deg);	
 font-size: 18px;
 text-align: center;
 letter-spacing: 0.1em;
 text-transform: uppercase;
 width: 120px;
-
 }
 
 
@@ -95,8 +81,27 @@ width: 120px;
 		left: 60px;
 	}
 
-#music {
-	float: right;
-}
-
-
+  /* CSS untuk layar desktop */
+  @media only screen and (min-width: 768px) {
+    /* gaya CSS untuk layar desktop */
+    .ulang{
+      width: 50px;
+      height: 50px;
+    }
+  }
+  /* CSS untuk layar tablet */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* gaya CSS untuk layar tablet */
+    .ulang{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  /* CSS untuk layar ponsel */
+  @media only screen and (max-width: 480px) {
+    /* gaya CSS untuk layar ponsel */
+    .ulang{
+      width: 30px;
+      height: 30px;
+    }
+  }

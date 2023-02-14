@@ -1,0 +1,453 @@
+body {
+    font-family: Arial;
+}
+/* page 1 */
+#page1{
+    background-image: url(/chapter_3/assets/main-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav {
+    float:inline-start;
+    font-size: 1em;
+}
+
+
+
+.jumbotron {
+    padding: 200px;
+    text-align: center;
+}
+
+
+.jumbotron p {
+    color: aliceblue;  
+    font-size: 23px; 
+}
+
+.jumbotron .btn {
+    background-color: rgb(199, 162, 0);
+    color: black;
+    border: none;
+    border-radius: 0%;
+    padding-right: 50px;
+    padding-left: 60px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    font-weight: 600;
+}
+
+/*
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+*/
+
+
+/* page 2 */
+#page2 {
+    background-image: url(/chapter_3/assets/the-games-bg.jpg);
+    background-size: cover;
+    height: 750px;
+}
+
+.bg-gallery {
+  width: 200vh;
+  padding-right: 50px;
+  padding-top: 12em;
+}
+
+
+/* page 3 */
+#page3 {
+    background-image: url(/chapter_3/assets/features.jpg);
+    background-size: cover;
+    height: 750px;
+    color: white;
+}
+
+
+
+/* page 4 */
+#page4 {
+    background-image: url(/chapter_3/assets/requirements.png);
+    background-size: cover;
+    height: 750px;
+    color: white;
+}
+
+#page4 p {
+ text-align: center;
+ font-size: small;
+}
+
+.heading  {
+  padding: 150px;
+}
+
+
+.text-star h4{
+  color: orange;
+}
+
+/* page 5 */
+#page5 {
+   background-image: url(/chapter_3/assets/top-score-bg.png);
+   background-size: cover;
+   height: 750px;
+}
+
+.text-right .button{
+  position: relative;
+  width: 20%;
+}
+
+.text-right {
+  color: white;
+  margin: auto;
+}
+
+#right {
+  margin-top: 20vh;
+  margin-right: 15vh;
+}
+
+.sidebar {
+    width: 540px;
+    margin-top: -270px;
+    padding: -10px;
+    float:right;
+    position: relative;
+}
+#card {
+  margin-left: 130px;
+  margin-right: 10vh;
+}
+#card2 {
+  float: right;
+  margin-right: 120px;
+  margin-left: 10vh;
+}
+
+/* page 6 */
+#page6 {
+    background-image: url(/chapter_3/assets/newsletter.png);
+    background-size: cover;
+    height: 750px;
+}
+
+
+
+#page6 img{
+    height: 530px;
+    padding: 100px;
+}
+
+.textwhite1 {
+  color: white;
+  font-weight: 500px;
+}
+
+.textwhite2 {
+  color: white;
+  font-weight: 500px;
+  font-size: 80px;
+}
+
+.textwhite3 {
+  color: white;
+  font-weight: normal;
+}
+
+#subscribe-now {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 210px;
+}
+
+/* register */
+.SignUp {
+  background-image: url(/chapter_3/assets/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.register {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://tse1.explicit.bing.net/th?id=OIP.q996cnesUwyWvcWjbk03xwHaE1&pid=Api&P=0);
+  background-size: cover;
+  background-position: center;
+  width: 45%;
+  height: 55%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px 5px rgb(255, 196, 0);
+  border-radius: 10px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  height: 15px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.form-check {
+  margin-top: 20px;
+}
+
+.form-check-label {
+  font-weight: normal;
+}
+
+.btn-primary {
+  background-color: #337ab7;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/* sampai sini */
+
+/* login */
+
+.login-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+#login {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="text-login"],
+input[type="password-login"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+
+
+/* login */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+footer{
+  position: relative;
+  background: transparent;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+footer::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100px;
+  height: 1px;
+  width: 100%;
+  background: #AFAFB6;
+}
+footer .content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+footer .content .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.content .top .logo-details{
+  color: #fff;
+  font-size: 30px;
+}
+.content .top .media-icons{
+  display: flex;
+}
+.content .top .media-icons a{
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.top .media-icons a:nth-child(1){
+  background: #4267B2;
+}
+.top .media-icons a:nth-child(1):hover{
+  color: #4267B2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(2){
+  background: #1DA1F2;
+}
+.top .media-icons a:nth-child(2):hover{
+  color: #1DA1F2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(3){
+  background: #E1306C;
+}
+.top .media-icons a:nth-child(3):hover{
+  color: #E1306C;
+  background: #fff;
+}
+.top .media-icons a:nth-child(4){
+  background: #0077B5;
+}
+.top .media-icons a:nth-child(4):hover{
+  color: #0077B5;
+  background: #fff;
+}
+.top .media-icons a:nth-child(5){
+  background: #FF0000;
+}
+.top .media-icons a:nth-child(5):hover{
+  color: #FF0000;
+  background: #fff;
+}
+footer .content .link-boxes{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .content .link-boxes .box{
+  width: calc(100% / 5 - 10px);
+}
+
+.content .link-boxes .input-box{
+  margin-right: 55px;
+}
+
+footer .bottom-details{
+  width: 100%;
+  background: transparent;
+}
+footer .bottom-details .bottom_text{
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.bottom-details .bottom_text a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.bottom-details .bottom_text a{
+  margin-right: 10px;
+}
+@media (max-width: 900px) {
+  footer .content .link-boxes{
+    flex-wrap: wrap;
+  }
+  footer .content .link-boxes .input-box{
+    width: 40%;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px){
+  footer{
+    position: relative;
+  }
+  .content .top .logo-details{
+    font-size: 26px;
+  }
+  .content .top .media-icons a{
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    line-height: 35px;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 3 - 10px);
+  }
+  footer .content .link-boxes .input-box{
+    width: 60%;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a{
+    font-size: 12px;
+  }
+}
+@media (max-width: 520px){
+  footer::before{
+    top: 145px;
+  }
+  footer .content .top{
+    flex-direction: column;
+  }
+  .content .top .media-icons{
+    margin-top: 16px;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 2 - 10px);
+  }
+  footer .content .link-boxes .input-box{
+    width: 100%;
+  }
+}

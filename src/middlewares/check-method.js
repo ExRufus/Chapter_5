@@ -1,7 +1,8 @@
-const checkMethod = (req, res, next) => {
-    console.log("Ini Adalah Middleware router endpoint!")
-    next();
-}
+const timeLog = (req, res, next) => {
+    const date = new Date()
+    console.log("Time : "+ date);
+    next()
+  }
+ 
 
-module.exports = checkMethod;
-// biasa dipakai untuk error authorizedException
+ module.exports = timeLog;
