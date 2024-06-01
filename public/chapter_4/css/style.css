@@ -3,21 +3,38 @@ body {
     background-color: rgba(146, 90, 29, 0.63);
 }
 
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px; /* Sesuaikan dengan jarak yang diinginkan */
+}
+
+#kesatu img {
+  max-width: 30px; /* Atur ukuran maksimum yang diinginkan */
+  height: auto; /* Biarkan tinggi otomatis menyesuaikan proporsi gambar */
+  background-color: transparent; /* Mengatur latar belakang gambar menjadi transparan */
+  margin: -100px;
+}
+
+
 .games {
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
-	margin: 1px auto;
-	width: 100px;
-    height: 100px;
+	width: 50px;
 }
 
 .player {
     margin-right: 70px;
+    margin: 23px;
 }
 
 .com {
@@ -25,8 +42,11 @@ img {
 }
 
 #tampilPilihan {
+    padding-left: 520px;
+    padding-top: 120px  ;
     letter-spacing: 3px;
     font-size: 3em;
+    position: absolute;
 }
 
 .ulang{
@@ -36,25 +56,25 @@ img {
 
 
 .footer img{
-    margin-left: 45em;
-    width: 80px;
-    height: 80px;
+    margin-top: 21em;
+    margin-left: 38em;
+    width: 50px;
 }
 
 #scoreAkhir {
-    margin-left: 23em;
+    margin-left: 13em;
 }
 
 .konten {
-position: absolute;
-margin-left: 550px;
-margin-top: 150px;
-transform: rotate(-28.87deg);	
-font-size: 18px;
-text-align: center;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-width: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-28.87deg);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  width: 120px;
 }
 
 
@@ -67,12 +87,6 @@ width: 120px;
 	width: 50px;
 	}
 	
-	#right {
-		color: #724C21;
-		font-size: 62px;
-		float: left;
-		position:absolute;
-	}
 	
 	#title {
 		color: #F9B23D;
@@ -84,24 +98,24 @@ width: 120px;
   /* CSS untuk layar desktop */
   @media only screen and (min-width: 768px) {
     /* gaya CSS untuk layar desktop */
-    .ulang{
-      width: 50px;
-      height: 50px;
+    .ulang {
+        width: 50px;
+        height: 50px;
     }
-  }
-  /* CSS untuk layar tablet */
-  @media only screen and (min-width: 481px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
     /* gaya CSS untuk layar tablet */
-    .ulang{
-      width: 40px;
-      height: 40px;
+    .ulang {
+        width: 40px;
+        height: 40px;
     }
-  }
-  /* CSS untuk layar ponsel */
-  @media only screen and (max-width: 480px) {
+}
+
+@media only screen and (max-width: 480px) {
     /* gaya CSS untuk layar ponsel */
-    .ulang{
-      width: 30px;
-      height: 30px;
+    .ulang {
+        width: 30px;
+        height: 30px;
     }
-  }
+}
